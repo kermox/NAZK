@@ -1,5 +1,5 @@
 # NAZK
-A static website example for National Agency of Corruption Prevention designed by @classiccode.
+A static responsible website example for National Agency of Corruption Prevention designed by @classiccode.
 
 ## Technology
 The website is made with **HTML5**, **SASS**, **Bootstrap4** and some **Jquery** mixed with **Vanilla JS**.
