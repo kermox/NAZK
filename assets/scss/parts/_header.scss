@@ -1,4 +1,4 @@
-header {
+#news {
   .container {
 
     span.number {
@@ -49,6 +49,10 @@ header {
             font-size: 14px;
             font-weight: 500;
             color: white;
+            &:hover{
+              opacity: 0.8;
+              transition: opacity 0.3s;
+            }
           }
 
           &:nth-child(2n) {
@@ -76,6 +80,9 @@ header {
     .carousel {
       .carousel-item {
         .carousel-row {
+          .carousel-img {
+            min-height: 300px;
+          }
 
           .date {
             width: 142px;
@@ -120,10 +127,6 @@ header {
 
     .carousel-indicators {
       position: relative;
-      top: -30px;
-      left: 0;
-
-
       width: 100px;
 
       li {
@@ -185,11 +188,11 @@ header {
   header {
     .container {
       span.number {
-        font-size: 30px;
+        font-size: 34px;
       }
 
       span.text {
-        font-size: 13px;
+        font-size: 16px;
       }
 
     }

@@ -59,30 +59,33 @@
       }
     }
 
-    .row {
-      .col {
+    .services-item {
+      a {
+        color: black;
+
         h3 {
           font-family: Ubuntu;
           font-style: normal;
           font-weight: bold;
           font-size: 26px;
           line-height: 36px;
-          /* or 138% */
-
-
           color: #000000;
-        }
 
-        p {
-          font-size: 14px;
-          line-height: 16px;
-
-          color: #565656;
-
+          &:hover {
+            opacity: 0.7;
+            transition: opacity 0.3s;
+          }
         }
       }
-    }
 
+      p {
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #565656;
+
+      }
+    }
   }
 }
 

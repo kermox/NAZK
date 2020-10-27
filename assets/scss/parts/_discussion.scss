@@ -12,6 +12,10 @@
       color: #234260;
       border-left: 6px solid #FFF84C;
       padding: 7px;
+      &:hover {
+        opacity: 0.8;
+        transition: all 0.3s;
+      }
     }
 
     .left {
@@ -33,8 +37,11 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
-
         color: #234260;
+        &:hover {
+          opacity: 0.8;
+          transition: all 0.3s;
+        }
       }
     }
 

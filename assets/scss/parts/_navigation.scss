@@ -4,6 +4,21 @@
   background: radial-gradient(50.42% 2051.37% at 49.58% 29.62%, #2394D8 0%, #47B1F0 100%);
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
 
+  .navbar-brand > span {
+    width: 50px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E0E9F4;
+
+  }
+
+
   .nav-link {
     text-decoration: none;
     color: #FFFFFF;
@@ -15,7 +30,8 @@
 
     &:first-child {
       &:hover {
-        text-decoration: underline;
+        opacity: 0.7;
+        transition: 0.3s all;
       }
     }
 
@@ -36,6 +52,11 @@
 
     outline: none;
     transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.8;
+      transition: 0.3s all;
+    }
 
     .hamburger-element {
       width: 25px;
@@ -97,12 +118,14 @@
     max-font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-
+    cursor: pointer;
     margin: 0 0 0 12px;
     color: #FFFFFF;
+    transition: 0.3s all;
 
     &:hover {
-      text-decoration: underline;
+      opacity: 0.8;
+      transition: 0.3s all;
     }
   }
 }
